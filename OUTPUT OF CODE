@@ -1,550 +1,585 @@
 Model loaded successfully.
-Genes: 2293
-Reactions: 4550
-Metabolites: 3335
+Genes: 960
+Reactions: 2172
+Metabolites: 1741
 
 Checking exchange reactions...
-    {'vch_DM_4CRSOL'            }
-    {'vch_DM_5DRIB'             }
-    {'vch_DM_AACALD'            }
-    {'vch_DM_AMOB'              }
-    {'vch_DM_MTHTHF'            }
-    {'vch_DM_OXAM'              }
-    {'EX_12ppd-R(e)'            }
-    {'EX_12ppd-S(e)'            }
-    {'EX_14glucan(e)'           }
-    {'EX_15dap(e)'              }
-    {'EX_23camp(e)'             }
-    {'EX_23ccmp(e)'             }
-    {'EX_23cgmp(e)'             }
-    {'EX_23cump(e)'             }
-    {'EX_23dappa(e)'            }
-    {'EX_26dap-M(e)'            }
-    {'EX_2ddglcn(e)'            }
-    {'EX_34dhpac(e)'            }
-    {'EX_3amp(e)'               }
-    {'EX_3cmp(e)'               }
-    {'EX_3gmp(e)'               }
-    {'EX_3hcinnm(e)'            }
-    {'EX_3hpp(e)'               }
-    {'EX_3hpppn(e)'             }
-    {'EX_3ump(e)'               }
-    {'EX_4abut(e)'              }
-    {'EX_4hoxpacd(e)'           }
-    {'EX_5dglcn(e)'             }
-    {'EX_5mtr(e)'               }
-    {'EX_LalaDglu(e)'           }
-    {'EX_LalaDgluMdap(e)'       }
-    {'EX_LalaDgluMdapDala(e)'   }
-    {'EX_LalaLglu(e)'           }
-    {'EX_ac(e)'                 }
-    {'EX_acac(e)'               }
-    {'EX_acald(e)'              }
-    {'EX_acgal(e)'              }
-    {'EX_acgal1p(e)'            }
-    {'EX_acgam(e)'              }
-    {'EX_acgam1p(e)'            }
-    {'EX_acmana(e)'             }
-    {'EX_acmum(e)'              }
-    {'EX_acnam(e)'              }
-    {'EX_acolipa(e)'            }
-    {'EX_acser(e)'              }
-    {'EX_ade(e)'                }
-    {'EX_adn(e)'                }
-    {'EX_adocbl(e)'             }
-    {'EX_ag(e)'                 }
-    {'EX_agm(e)'                }
-    {'EX_akg(e)'                }
-    {'EX_ala-B(e)'              }
-    {'EX_ala-D(e)'              }
-    {'EX_ala-L(e)'              }
-    {'EX_alaala(e)'             }
-    {'EX_all-D(e)'              }
-    {'EX_alltn(e)'              }
-    {'EX_amp(e)'                }
-    {'EX_anhgm(e)'              }
-    {'EX_arab-L(e)'             }
-    {'EX_arbt(e)'               }
-    {'EX_arbtn(e)'              }
-    {'EX_arbtn-fe3(e)'          }
-    {'EX_arg-L(e)'              }
-    {'EX_ascb-L(e)'             }
-    {'EX_asn-L(e)'              }
-    {'EX_aso3(e)'               }
-    {'EX_asp-L(e)'              }
-    {'EX_btn(e)'                }
-    {'EX_but(e)'                }
-    {'EX_butso3(e)'             }
-    {'EX_ca2(e)'                }
-    {'EX_cbi(e)'                }
-    {'EX_cbl1(e)'               }
-    {'EX_cd2(e)'                }
-    {'EX_cgly(e)'               }
-    {'EX_chol(e)'               }
-    {'EX_chtbs(e)'              }
-    {'EX_cit(e)'                }
-    {'EX_cl(e)'                 }
-    {'EX_cm(e)'                 }
-    {'EX_cmp(e)'                }
-    {'EX_co2(e)'                }
-    {'EX_cobalt2(e)'            }
-    {'EX_colipa(e)'             }
-    {'EX_colipap(e)'            }
-    {'EX_cpgn(e)'               }
-    {'EX_cpgn-un(e)'            }
-    {'EX_crn(e)'                }
-    {'EX_crn-D(e)'              }
-    {'EX_csn(e)'                }
-    {'EX_cu(e)'                 }
-    {'EX_cu2(e)'                }
-    {'EX_cyan(e)'               }
-    {'EX_cynt(e)'               }
-    {'EX_cys-D(e)'              }
-    {'EX_cys-L(e)'              }
-    {'EX_cytd(e)'               }
-    {'EX_dad-2(e)'              }
-    {'EX_damp(e)'               }
-    {'EX_dca(e)'                }
-    {'EX_dcmp(e)'               }
-    {'EX_dcyt(e)'               }
-    {'EX_ddca(e)'               }
-    {'EX_dgmp(e)'               }
-    {'EX_dgsn(e)'               }
-    {'EX_dha(e)'                }
-    {'EX_dimp(e)'               }
-    {'EX_din(e)'                }
-    {'EX_dms(e)'                }
-    {'EX_dmso(e)'               }
-    {'EX_dopa(e)'               }
-    {'EX_doxrbcn(e)'            }
-    {'EX_dtmp(e)'               }
-    {'EX_dump(e)'               }
-    {'EX_duri(e)'               }
-    {'EX_eca4colipa(e)'         }
-    {'EX_enlipa(e)'             }
-    {'EX_enter(e)'              }
-    {'EX_etha(e)'               }
-    {'EX_ethso3(e)'             }
-    {'EX_etoh(e)'               }
-    {'EX_f6p(e)'                }
-    {'EX_fald(e)'               }
-    {'EX_fe2(e)'                }
-    {'EX_fe3(e)'                }
-    {'EX_fe3dcit(e)'            }
-    {'EX_fe3dhbzs(e)'           }
-    {'EX_fe3hox(e)'             }
-    {'EX_fe3hox-un(e)'          }
-    {'EX_fecrm(e)'              }
-    {'EX_fecrm-un(e)'           }
-    {'EX_feenter(e)'            }
-    {'EX_feoxam(e)'             }
-    {'EX_feoxam-un(e)'          }
-    {'EX_for(e)'                }
-    {'EX_fru(e)'                }
-    {'EX_frulys(e)'             }
-    {'EX_fruur(e)'              }
-    {'EX_fuc-L(e)'              }
-    {'EX_fum(e)'                }
-    {'EX_fusa(e)'               }
-    {'EX_g1p(e)'                }
-    {'EX_g3pc(e)'               }
-    {'EX_g3pe(e)'               }
-    {'EX_g3pg(e)'               }
-    {'EX_g3pi(e)'               }
-    {'EX_g3ps(e)'               }
-    {'EX_g6p(e)'                }
-    {'EX_gal(e)'                }
-    {'EX_gal-bD(e)'             }
-    {'EX_gal1p(e)'              }
-    {'EX_galct-D(e)'            }
-    {'EX_galctn-D(e)'           }
-    {'EX_galctn-L(e)'           }
-    {'EX_galt(e)'               }
-    {'EX_galur(e)'              }
-    {'EX_gam(e)'                }
-    {'EX_gam6p(e)'              }
-    {'EX_gbbtn(e)'              }
-    {'EX_gdp(e)'                }
-    {'EX_glc-D(e)'              }
-    {'EX_glcn(e)'               }
-    {'EX_glcr(e)'               }
-    {'EX_glcur(e)'              }
-    {'EX_glcur1p(e)'            }
-    {'EX_gln-L(e)'              }
-    {'EX_glu-L(e)'              }
-    {'EX_gly(e)'                }
-    {'EX_glyald(e)'             }
-    {'EX_glyb(e)'               }
-    {'EX_glyc(e)'               }
-    {'EX_glyc-R(e)'             }
-    {'EX_glyc2p(e)'             }
-    {'EX_glyc3p(e)'             }
-    {'EX_glyclt(e)'             }
-    {'EX_gmp(e)'                }
-    {'EX_gsn(e)'                }
-    {'EX_gthox(e)'              }
-    {'EX_gthrd(e)'              }
-    {'EX_gtp(e)'                }
-    {'EX_gua(e)'                }
-    {'EX_h2(e)'                 }
-    {'EX_h2o(e)'                }
-    {'EX_h2o2(e)'               }
-    {'EX_h2s(e)'                }
-    {'EX_hacolipa(e)'           }
-    {'EX_halipa(e)'             }
-    {'EX_hdca(e)'               }
-    {'EX_hdcea(e)'              }
-    {'EX_hg2(e)'                }
-    {'EX_his-L(e)'              }
-    {'EX_hom-L(e)'              }
-    {'EX_hxa(e)'                }
-    {'EX_hxan(e)'               }
-    {'EX_idon-L(e)'             }
-    {'EX_ile-L(e)'              }
-    {'EX_imp(e)'                }
-    {'EX_indole(e)'             }
-    {'EX_inost(e)'              }
-    {'EX_ins(e)'                }
-    {'EX_isetac(e)'             }
-    {'EX_k(e)'                  }
-    {'EX_kdo2lipid4(e)'         }
-    {'EX_lac-D(e)'              }
-    {'EX_lac-L(e)'              }
-    {'EX_lcts(e)'               }
-    {'EX_leu-L(e)'              }
-    {'EX_lipa(e)'               }
-    {'EX_lipa_cold(e)'          }
-    {'EX_lipoate(e)'            }
-    {'EX_lys-L(e)'              }
-    {'EX_lyx-L(e)'              }
-    {'EX_mal-D(e)'              }
-    {'EX_mal-L(e)'              }
-    {'EX_malt(e)'               }
-    {'EX_malthx(e)'             }
-    {'EX_maltpt(e)'             }
-    {'EX_malttr(e)'             }
-    {'EX_maltttr(e)'            }
-    {'EX_man(e)'                }
-    {'EX_man6p(e)'              }
-    {'EX_manglyc(e)'            }
-    {'EX_melib(e)'              }
-    {'EX_meoh(e)'               }
-    {'EX_met-D(e)'              }
-    {'EX_met-L(e)'              }
-    {'EX_metsox-R-L(e)'         }
-    {'EX_metsox-S-L(e)'         }
-    {'EX_mg2(e)'                }
-    {'EX_mincyc(e)'             }
-    {'EX_minohp(e)'             }
-    {'EX_mmet(e)'               }
-    {'EX_mn2(e)'                }
-    {'EX_mnl(e)'                }
-    {'EX_mobd(e)'               }
-    {'EX_mso3(e)'               }
-    {'EX_n2o(e)'                }
-    {'EX_na1(e)'                }
-    {'EX_nac(e)'                }
-    {'EX_nh4(e)'                }
-    {'EX_ni2(e)'                }
-    {'EX_nmn(e)'                }
-    {'EX_no(e)'                 }
-    {'EX_no2(e)'                }
-    {'EX_no3(e)'                }
-    {'EX_novbcn(e)'             }
-    {'EX_o16a4colipa(e)'        }
-    {'EX_o2(e)'                 }
-    {'EX_o2s(e)'                }
-    {'EX_ocdca(e)'              }
-    {'EX_ocdcea(e)'             }
-    {'EX_octa(e)'               }
-    {'EX_orn(e)'                }
-    {'EX_orot(e)'               }
-    {'EX_pacald(e)'             }
-    {'EX_peamn(e)'              }
-    {'EX_phe-L(e)'              }
-    {'EX_pheme(e)'              }
-    {'EX_pi(e)'                 }
-    {'EX_pnto-R(e)'             }
-    {'EX_ppa(e)'                }
-    {'EX_ppal(e)'               }
-    {'EX_pppn(e)'               }
-    {'EX_ppt(e)'                }
-    {'EX_pro-L(e)'              }
-    {'EX_progly(e)'             }
-    {'EX_psclys(e)'             }
-    {'EX_pser-L(e)'             }
-    {'EX_ptrc(e)'               }
-    {'EX_pydam(e)'              }
-    {'EX_pydx(e)'               }
-    {'EX_pydxn(e)'              }
-    {'EX_pyr(e)'                }
-    {'EX_quin(e)'               }
-    {'EX_r5p(e)'                }
-    {'EX_rfamp(e)'              }
-    {'EX_rib-D(e)'              }
-    {'EX_rmn(e)'                }
-    {'EX_sbt-D(e)'              }
-    {'EX_sel(e)'                }
-    {'EX_ser-D(e)'              }
-    {'EX_ser-L(e)'              }
-    {'EX_skm(e)'                }
-    {'EX_slnt(e)'               }
-    {'EX_so2(e)'                }
-    {'EX_so3(e)'                }
-    {'EX_so4(e)'                }
-    {'EX_spmd(e)'               }
-    {'EX_succ(e)'               }
-    {'EX_sucr(e)'               }
-    {'EX_sulfac(e)'             }
-    {'EX_tartr-D(e)'            }
-    {'EX_tartr-L(e)'            }
-    {'EX_taur(e)'               }
-    {'EX_tcynt(e)'              }
-    {'EX_thm(e)'                }
-    {'EX_thr-L(e)'              }
-    {'EX_thrp(e)'               }
-    {'EX_thym(e)'               }
-    {'EX_thymd(e)'              }
-    {'EX_tma(e)'                }
-    {'EX_tmao(e)'               }
-    {'EX_tre(e)'                }
-    {'EX_trp-L(e)'              }
-    {'EX_tsul(e)'               }
-    {'EX_ttdca(e)'              }
-    {'EX_ttdcea(e)'             }
-    {'EX_ttrcyc(e)'             }
-    {'EX_tungs(e)'              }
-    {'EX_tym(e)'                }
-    {'EX_tyr-L(e)'              }
-    {'EX_tyrp(e)'               }
-    {'EX_uacgam(e)'             }
-    {'EX_udpacgal(e)'           }
-    {'EX_udpg(e)'               }
-    {'EX_udpgal(e)'             }
-    {'EX_udpglcur(e)'           }
-    {'EX_ump(e)'                }
-    {'EX_ura(e)'                }
-    {'EX_urea(e)'               }
-    {'EX_uri(e)'                }
-    {'EX_val-L(e)'              }
-    {'EX_xan(e)'                }
-    {'EX_xmp(e)'                }
-    {'EX_xtsn(e)'               }
-    {'EX_xyl-D(e)'              }
-    {'EX_xylu-L(e)'             }
-    {'EX_zn2(e)'                }
-    {'EX_4hphac(e)'             }
-    {'EX_4abz(e)'               }
-    {'EX_acon_C(e)'             }
-    {'EX_chitob(e)'             }
-    {'EX_4hthr(e)'              }
-    {'EX_feroxB(e)'             }
-    {'EX_tcb(e)'                }
-    {'EX_tton(e)'               }
-    {'EX_feroxEfe(e)'           }
-    {'EX_feroxE(e)'             }
-    {'EX_pep(e)'                }
-    {'EX_23dhbzs3(e)'           }
-    {'EX_tet(e)'                }
-    {'EX_salchs4(e)'            }
-    {'EX_tag-D(e)'              }
-    {'EX_oaa(e)'                }
-    {'EX_salchs2fe(e)'          }
-    {'EX_feroxBfe(e)'           }
-    {'EX_salchs4fe(e)'          }
-    {'EX_2pg(e)'                }
-    {'EX_drib(e)'               }
-    {'EX_fe3dhbzs3(e)'          }
-    {'EX_cysi-L(e)'             }
-    {'EX_salchsx_L(e)'          }
-    {'EX_colipaOA_L(e)'         }
-    {'EX_icit_L(e)'             }
-    {'EX_colipa20Oag_L(e)'      }
-    {'EX_remnant1_L(e)'         }
-    {'EX_foam_L(e)'             }
-    {'EX_3pg(e)'                }
-    {'EX_airs(e)'               }
-    {'EX_dxyl(e)'               }
-    {'EX_rnam(e)'               }
-    {'EX_salchs2(e)'            }
-    {'EX_guln-L(e)'             }
-    {'EX_udcpo5(e)'             }
-    {'EX_feroxGfe(e)'           }
-    {'EX_feroxG(e)'             }
-    {'EX_cellb(e)'              }
-    {'EX_bz(e)'                 }
-    {'vch_DM_lipidA_core(e)'    }
-    {'EX_3hoxpac(e)'            }
-    {'EX_kokdolipidA(e)'        }
-    {'EX_fe(e)'                 }
-    {'EX_btd_RR(e)'             }
-    {'EX_diact(e)'              }
-    {'EX_rbt(e)'                }
-    {'EX_abt-D(e)'              }
-    {'EX_13ppd(e)'              }
-    {'EX_3ntym(e)'              }
-    {'EX_6apa(e)'               }
-    {'EX_4hoxpac(e)'            }
-    {'EX_salcn(e)'              }
-    {'EX_pac(e)'                }
-    {'EX_peng(e)'               }
-    {'EX_raffin(e)'             }
-    {'EX_galam(e)'              }
-    {'EX_o6a4colipa(e)'         }
-    {'EX_arab-D(e)'             }
-    {'EX_AEP(e)'                }
-    {'vch_sink_glyclt[c]'       }
-    {'etec_DM_4crsol_c'         }
-    {'etec_DM_5drib_c'          }
-    {'etec_DM_aacald_c'         }
-    {'etec_DM_amob_c'           }
-    {'etec_DM_mththf_c'         }
-    {'etec_DM_oxam_c'           }
-    {'EX_h(e)'                  }
-    {'EX_frmd(e)'               }
-    {'EX_colipaOA(e)'           }
-    {'EX_salchsx(e)'            }
-    {'EX_icit(e)'               }
-    {'EX_colipa20Oag(e)'        }
-    {'EX_remnant1(e)'           }
-    {'EX_udcpo4(e)'             }
-    {'etec_DM_lipidA_core_e_p'  }
-    {'sink_biomass_co_growth[e]'}
-    {'sink_glu1sa[c_vch]'       }
-    {'sink_maltpt[c_vch]'       }
-    {'sink_malthx[c_vch]'       }
+    {'DM_4CRSOL'             }
+    {'DM_5DRIB'              }
+    {'DM_AACALD'             }
+    {'DM_AMOB'               }
+    {'DM_MTHTHF'             }
+    {'DM_OXAM'               }
+    {'EX_12ppd-R(e)'         }
+    {'EX_12ppd-S(e)'         }
+    {'EX_14glucan(e)'        }
+    {'EX_15dap(e)'           }
+    {'EX_23camp(e)'          }
+    {'EX_23ccmp(e)'          }
+    {'EX_23cgmp(e)'          }
+    {'EX_23cump(e)'          }
+    {'EX_23dappa(e)'         }
+    {'EX_26dap-M(e)'         }
+    {'EX_2ddglcn(e)'         }
+    {'EX_34dhpac(e)'         }
+    {'EX_3amp(e)'            }
+    {'EX_3cmp(e)'            }
+    {'EX_3gmp(e)'            }
+    {'EX_3hcinnm(e)'         }
+    {'EX_3hpp(e)'            }
+    {'EX_3hpppn(e)'          }
+    {'EX_3ump(e)'            }
+    {'EX_4abut(e)'           }
+    {'EX_4hoxpacd(e)'        }
+    {'EX_5dglcn(e)'          }
+    {'EX_5mtr(e)'            }
+    {'EX_LalaDglu(e)'        }
+    {'EX_LalaDgluMdap(e)'    }
+    {'EX_LalaDgluMdapDala(e)'}
+    {'EX_LalaLglu(e)'        }
+    {'EX_ac(e)'              }
+    {'EX_acac(e)'            }
+    {'EX_acald(e)'           }
+    {'EX_acgal(e)'           }
+    {'EX_acgal1p(e)'         }
+    {'EX_acgam(e)'           }
+    {'EX_acgam1p(e)'         }
+    {'EX_acmana(e)'          }
+    {'EX_acmum(e)'           }
+    {'EX_acnam(e)'           }
+    {'EX_acolipa(e)'         }
+    {'EX_acser(e)'           }
+    {'EX_ade(e)'             }
+    {'EX_adn(e)'             }
+    {'EX_adocbl(e)'          }
+    {'EX_ag(e)'              }
+    {'EX_agm(e)'             }
+    {'EX_akg(e)'             }
+    {'EX_ala-B(e)'           }
+    {'EX_ala-D(e)'           }
+    {'EX_ala-L(e)'           }
+    {'EX_alaala(e)'          }
+    {'EX_all-D(e)'           }
+    {'EX_alltn(e)'           }
+    {'EX_amp(e)'             }
+    {'EX_anhgm(e)'           }
+    {'EX_arab-L(e)'          }
+    {'EX_arbt(e)'            }
+    {'EX_arbtn(e)'           }
+    {'EX_arbtn-fe3(e)'       }
+    {'EX_arg-L(e)'           }
+    {'EX_ascb-L(e)'          }
+    {'EX_asn-L(e)'           }
+    {'EX_aso3(e)'            }
+    {'EX_asp-L(e)'           }
+    {'EX_btn(e)'             }
+    {'EX_but(e)'             }
+    {'EX_butso3(e)'          }
+    {'EX_ca2(e)'             }
+    {'EX_cbi(e)'             }
+    {'EX_cbl1(e)'            }
+    {'EX_cd2(e)'             }
+    {'EX_cgly(e)'            }
+    {'EX_chol(e)'            }
+    {'EX_chtbs(e)'           }
+    {'EX_cit(e)'             }
+    {'EX_cl(e)'              }
+    {'EX_cm(e)'              }
+    {'EX_cmp(e)'             }
+    {'EX_co2(e)'             }
+    {'EX_cobalt2(e)'         }
+    {'EX_colipa(e)'          }
+    {'EX_colipap(e)'         }
+    {'EX_cpgn(e)'            }
+    {'EX_cpgn-un(e)'         }
+    {'EX_crn(e)'             }
+    {'EX_crn-D(e)'           }
+    {'EX_csn(e)'             }
+    {'EX_cu(e)'              }
+    {'EX_cu2(e)'             }
+    {'EX_cyan(e)'            }
+    {'EX_cynt(e)'            }
+    {'EX_cys-D(e)'           }
+    {'EX_cys-L(e)'           }
+    {'EX_cytd(e)'            }
+    {'EX_dad-2(e)'           }
+    {'EX_damp(e)'            }
+    {'EX_dca(e)'             }
+    {'EX_dcmp(e)'            }
+    {'EX_dcyt(e)'            }
+    {'EX_ddca(e)'            }
+    {'EX_dgmp(e)'            }
+    {'EX_dgsn(e)'            }
+    {'EX_dha(e)'             }
+    {'EX_dimp(e)'            }
+    {'EX_din(e)'             }
+    {'EX_dms(e)'             }
+    {'EX_dmso(e)'            }
+    {'EX_dopa(e)'            }
+    {'EX_doxrbcn(e)'         }
+    {'EX_dtmp(e)'            }
+    {'EX_dump(e)'            }
+    {'EX_duri(e)'            }
+    {'EX_eca4colipa(e)'      }
+    {'EX_enlipa(e)'          }
+    {'EX_enter(e)'           }
+    {'EX_etha(e)'            }
+    {'EX_ethso3(e)'          }
+    {'EX_etoh(e)'            }
+    {'EX_f6p(e)'             }
+    {'EX_fald(e)'            }
+    {'EX_fe2(e)'             }
+    {'EX_fe3(e)'             }
+    {'EX_fe3dcit(e)'         }
+    {'EX_fe3dhbzs(e)'        }
+    {'EX_fe3hox(e)'          }
+    {'EX_fe3hox-un(e)'       }
+    {'EX_fecrm(e)'           }
+    {'EX_fecrm-un(e)'        }
+    {'EX_feenter(e)'         }
+    {'EX_feoxam(e)'          }
+    {'EX_feoxam-un(e)'       }
+    {'EX_for(e)'             }
+    {'EX_fru(e)'             }
+    {'EX_frulys(e)'          }
+    {'EX_fruur(e)'           }
+    {'EX_fuc-L(e)'           }
+    {'EX_fum(e)'             }
+    {'EX_fusa(e)'            }
+    {'EX_g1p(e)'             }
+    {'EX_g3pc(e)'            }
+    {'EX_g3pe(e)'            }
+    {'EX_g3pg(e)'            }
+    {'EX_g3pi(e)'            }
+    {'EX_g3ps(e)'            }
+    {'EX_g6p(e)'             }
+    {'EX_gal(e)'             }
+    {'EX_gal-bD(e)'          }
+    {'EX_gal1p(e)'           }
+    {'EX_galct-D(e)'         }
+    {'EX_galctn-D(e)'        }
+    {'EX_galctn-L(e)'        }
+    {'EX_galt(e)'            }
+    {'EX_galur(e)'           }
+    {'EX_gam(e)'             }
+    {'EX_gam6p(e)'           }
+    {'EX_gbbtn(e)'           }
+    {'EX_gdp(e)'             }
+    {'EX_glc-D(e)'           }
+    {'EX_glcn(e)'            }
+    {'EX_glcr(e)'            }
+    {'EX_glcur(e)'           }
+    {'EX_glcur1p(e)'         }
+    {'EX_gln-L(e)'           }
+    {'EX_glu-L(e)'           }
+    {'EX_gly(e)'             }
+    {'EX_glyald(e)'          }
+    {'EX_glyb(e)'            }
+    {'EX_glyc(e)'            }
+    {'EX_glyc-R(e)'          }
+    {'EX_glyc2p(e)'          }
+    {'EX_glyc3p(e)'          }
+    {'EX_glyclt(e)'          }
+    {'EX_gmp(e)'             }
+    {'EX_gsn(e)'             }
+    {'EX_gthox(e)'           }
+    {'EX_gthrd(e)'           }
+    {'EX_gtp(e)'             }
+    {'EX_gua(e)'             }
+    {'EX_h2(e)'              }
+    {'EX_h2o(e)'             }
+    {'EX_h2o2(e)'            }
+    {'EX_h2s(e)'             }
+    {'EX_hacolipa(e)'        }
+    {'EX_halipa(e)'          }
+    {'EX_hdca(e)'            }
+    {'EX_hdcea(e)'           }
+    {'EX_hg2(e)'             }
+    {'EX_his-L(e)'           }
+    {'EX_hom-L(e)'           }
+    {'EX_hxa(e)'             }
+    {'EX_hxan(e)'            }
+    {'EX_idon-L(e)'          }
+    {'EX_ile-L(e)'           }
+    {'EX_imp(e)'             }
+    {'EX_indole(e)'          }
+    {'EX_inost(e)'           }
+    {'EX_ins(e)'             }
+    {'EX_isetac(e)'          }
+    {'EX_k(e)'               }
+    {'EX_kdo2lipid4(e)'      }
+    {'EX_lac-D(e)'           }
+    {'EX_lac-L(e)'           }
+    {'EX_lcts(e)'            }
+    {'EX_leu-L(e)'           }
+    {'EX_lipa(e)'            }
+    {'EX_lipa_cold(e)'       }
+    {'EX_lipoate(e)'         }
+    {'EX_lys-L(e)'           }
+    {'EX_lyx-L(e)'           }
+    {'EX_mal-D(e)'           }
+    {'EX_mal-L(e)'           }
+    {'EX_malt(e)'            }
+    {'EX_malthx(e)'          }
+    {'EX_maltpt(e)'          }
+    {'EX_malttr(e)'          }
+    {'EX_maltttr(e)'         }
+    {'EX_man(e)'             }
+    {'EX_man6p(e)'           }
+    {'EX_manglyc(e)'         }
+    {'EX_melib(e)'           }
+    {'EX_meoh(e)'            }
+    {'EX_met-D(e)'           }
+    {'EX_met-L(e)'           }
+    {'EX_metsox-R-L(e)'      }
+    {'EX_metsox-S-L(e)'      }
+    {'EX_mg2(e)'             }
+    {'EX_mincyc(e)'          }
+    {'EX_minohp(e)'          }
+    {'EX_mmet(e)'            }
+    {'EX_mn2(e)'             }
+    {'EX_mnl(e)'             }
+    {'EX_mobd(e)'            }
+    {'EX_mso3(e)'            }
+    {'EX_n2o(e)'             }
+    {'EX_na1(e)'             }
+    {'EX_nac(e)'             }
+    {'EX_nh4(e)'             }
+    {'EX_ni2(e)'             }
+    {'EX_nmn(e)'             }
+    {'EX_no(e)'              }
+    {'EX_no2(e)'             }
+    {'EX_no3(e)'             }
+    {'EX_novbcn(e)'          }
+    {'EX_o16a4colipa(e)'     }
+    {'EX_o2(e)'              }
+    {'EX_o2s(e)'             }
+    {'EX_ocdca(e)'           }
+    {'EX_ocdcea(e)'          }
+    {'EX_octa(e)'            }
+    {'EX_orn(e)'             }
+    {'EX_orot(e)'            }
+    {'EX_pacald(e)'          }
+    {'EX_peamn(e)'           }
+    {'EX_phe-L(e)'           }
+    {'EX_pheme(e)'           }
+    {'EX_pi(e)'              }
+    {'EX_pnto-R(e)'          }
+    {'EX_ppa(e)'             }
+    {'EX_ppal(e)'            }
+    {'EX_pppn(e)'            }
+    {'EX_ppt(e)'             }
+    {'EX_pro-L(e)'           }
+    {'EX_progly(e)'          }
+    {'EX_psclys(e)'          }
+    {'EX_pser-L(e)'          }
+    {'EX_ptrc(e)'            }
+    {'EX_pydam(e)'           }
+    {'EX_pydx(e)'            }
+    {'EX_pydxn(e)'           }
+    {'EX_pyr(e)'             }
+    {'EX_quin(e)'            }
+    {'EX_r5p(e)'             }
+    {'EX_rfamp(e)'           }
+    {'EX_rib-D(e)'           }
+    {'EX_rmn(e)'             }
+    {'EX_sbt-D(e)'           }
+    {'EX_sel(e)'             }
+    {'EX_ser-D(e)'           }
+    {'EX_ser-L(e)'           }
+    {'EX_skm(e)'             }
+    {'EX_slnt(e)'            }
+    {'EX_so2(e)'             }
+    {'EX_so3(e)'             }
+    {'EX_so4(e)'             }
+    {'EX_spmd(e)'            }
+    {'EX_succ(e)'            }
+    {'EX_sucr(e)'            }
+    {'EX_sulfac(e)'          }
+    {'EX_tartr-D(e)'         }
+    {'EX_tartr-L(e)'         }
+    {'EX_taur(e)'            }
+    {'EX_tcynt(e)'           }
+    {'EX_thm(e)'             }
+    {'EX_thr-L(e)'           }
+    {'EX_thrp(e)'            }
+    {'EX_thym(e)'            }
+    {'EX_thymd(e)'           }
+    {'EX_tma(e)'             }
+    {'EX_tmao(e)'            }
+    {'EX_tre(e)'             }
+    {'EX_trp-L(e)'           }
+    {'EX_tsul(e)'            }
+    {'EX_ttdca(e)'           }
+    {'EX_ttdcea(e)'          }
+    {'EX_ttrcyc(e)'          }
+    {'EX_tungs(e)'           }
+    {'EX_tym(e)'             }
+    {'EX_tyr-L(e)'           }
+    {'EX_tyrp(e)'            }
+    {'EX_uacgam(e)'          }
+    {'EX_udpacgal(e)'        }
+    {'EX_udpg(e)'            }
+    {'EX_udpgal(e)'          }
+    {'EX_udpglcur(e)'        }
+    {'EX_ump(e)'             }
+    {'EX_ura(e)'             }
+    {'EX_urea(e)'            }
+    {'EX_uri(e)'             }
+    {'EX_val-L(e)'           }
+    {'EX_xan(e)'             }
+    {'EX_xmp(e)'             }
+    {'EX_xtsn(e)'            }
+    {'EX_xyl-D(e)'           }
+    {'EX_xylu-L(e)'          }
+    {'EX_zn2(e)'             }
+    {'EX_4hphac(e)'          }
+    {'EX_4abz(e)'            }
+    {'EX_acon_C(e)'          }
+    {'EX_chitob(e)'          }
+    {'EX_4hthr(e)'           }
+    {'EX_feroxB(e)'          }
+    {'EX_tcb(e)'             }
+    {'EX_tton(e)'            }
+    {'EX_feroxEfe(e)'        }
+    {'EX_feroxE(e)'          }
+    {'EX_pep(e)'             }
+    {'EX_23dhbzs3(e)'        }
+    {'EX_tet(e)'             }
+    {'EX_salchs4(e)'         }
+    {'EX_tag-D(e)'           }
+    {'EX_oaa(e)'             }
+    {'EX_salchs2fe(e)'       }
+    {'EX_feroxBfe(e)'        }
+    {'EX_salchs4fe(e)'       }
+    {'EX_2pg(e)'             }
+    {'EX_drib(e)'            }
+    {'EX_fe3dhbzs3(e)'       }
+    {'EX_cysi-L(e)'          }
+    {'EX_salchsx_L(e)'       }
+    {'EX_colipaOA_L(e)'      }
+    {'EX_icit_L(e)'          }
+    {'EX_colipa20Oag_L(e)'   }
+    {'EX_remnant1_L(e)'      }
+    {'EX_foam_L(e)'          }
+    {'EX_3pg(e)'             }
+    {'EX_airs(e)'            }
+    {'EX_dxyl(e)'            }
+    {'EX_rnam(e)'            }
+    {'EX_salchs2(e)'         }
+    {'EX_guln-L(e)'          }
+    {'EX_udcpo5(e)'          }
+    {'EX_feroxGfe(e)'        }
+    {'EX_feroxG(e)'          }
+    {'EX_cellb(e)'           }
+    {'EX_bz(e)'              }
+    {'DM_lipidA_core(e)'     }
+    {'EX_3hoxpac(e)'         }
+    {'EX_kokdolipidA(e)'     }
+    {'EX_fe(e)'              }
+    {'EX_btd_RR(e)'          }
+    {'EX_diact(e)'           }
+    {'EX_rbt(e)'             }
+    {'EX_abt-D(e)'           }
+    {'EX_13ppd(e)'           }
+    {'EX_3ntym(e)'           }
+    {'EX_6apa(e)'            }
+    {'EX_4hoxpac(e)'         }
+    {'EX_salcn(e)'           }
+    {'EX_pac(e)'             }
+    {'EX_peng(e)'            }
+    {'EX_raffin(e)'          }
+    {'EX_galam(e)'           }
+    {'EX_o6a4colipa(e)'      }
+    {'EX_arab-D(e)'          }
+    {'EX_AEP(e)'             }
+    {'sink_glu1sa[c]'        }
+    {'sink_glyclt[c]'        }
+    {'EX_h(e)'               }
+    {'sink_maltpt[c]'        }
+    {'sink_malthx[c]'        }
 
-Wild-type growth in WATER: 0.036362
-Wild-type growth in GUT:   0.261085
+Wild-type growth in WATER: 0.062406
+Wild-type growth in GUT:   0.213479
 
 Running single-gene deletion for WATER...
 Single gene deletion analysis in progress ...
 100%    [........................................]
-Number of essential genes in WATER: 281
+Number of essential genes in WATER: 202
 
 Running single-gene deletion for GUT...
 Single gene deletion analysis in progress ...
 100%    [........................................]
-Number of essential genes in GUT: 279
+Number of essential genes in GUT: 197
 
  
 ===== DIAGNOSTIC CHECK =====
-ETEC_3682 : found, connected reactions = 1
-ETEC_4208 : found, connected reactions = 1
-ETEC_4268 : found, connected reactions = 1
+VC1169 : found, connected reactions = 3
+VC1170 : found, connected reactions = 3
+VC1171 : found, connected reactions = 2
+VC1172 : found, connected reactions = 1
+VC1173 : found, connected reactions = 1
+VC1174 : found, connected reactions = 1
 VC1611 : found, connected reactions = 1
 VC1671 : found, connected reactions = 2
+VC2316 : found, connected reactions = 2
+VC2389 : found, connected reactions = 1
+VC2390 : found, connected reactions = 1
+VC2508 : found, connected reactions = 1
+VC2643 : found, connected reactions = 1
+VC2644 : found, connected reactions = 1
+VC2645 : found, connected reactions = 2
 VC2683 : found, connected reactions = 1
-ETEC_0180 : found, connected reactions = 1
-ETEC_2452 : found, connected reactions = 1
-ETEC_3514 : found, connected reactions = 1
-ETEC_3515 : found, connected reactions = 1
-Core essential genes (both environments): 275
-Water-only essential genes: 6
-Gut-only essential genes: 4
+VC2088 : found, connected reactions = 1
+VC2089 : found, connected reactions = 1
+VC2090 : found, connected reactions = 1
+VC2091 : found, connected reactions = 1
+VC2290 : found, connected reactions = 1
+VC2291 : found, connected reactions = 1
+VC2292 : found, connected reactions = 1
+VC2293 : found, connected reactions = 1
+VC2294 : found, connected reactions = 1
+VC2295 : found, connected reactions = 1
+VC2471 : found, connected reactions = 1
+Core essential genes (both environments): 186
+Water-only essential genes: 16
+Gut-only essential genes: 11
 
 First 20 WATER essential genes:
-    {'ETEC_0009'}
-    {'ETEC_0025'}
-    {'ETEC_0029'}
-    {'ETEC_0052'}
-    {'ETEC_0070'}
-    {'ETEC_0071'}
-    {'ETEC_0072'}
-    {'ETEC_0073'}
-    {'ETEC_0084'}
-    {'ETEC_0085'}
-    {'ETEC_0088'}
-    {'ETEC_0100'}
-    {'ETEC_0105'}
-    {'ETEC_0127'}
-    {'ETEC_0129'}
-    {'ETEC_0130'}
-    {'ETEC_0138'}
-    {'ETEC_0150'}
-    {'ETEC_0155'}
-    {'ETEC_0168'}
+    {'VC1483'}
+    {'VC2021'}
+    {'VC2019'}
+    {'VC2362'}
+    {'VC2379'}
+    {'VC2523'}
+    {'VC2020'}
+    {'VC0819'}
+    {'VC0295'}
+    {'VC0296'}
+    {'VC1000'}
+    {'VC2244'}
+    {'VC2643'}
+    {'VC2316'}
+    {'VC2645'}
+    {'VC2499'}
+    {'VC2500'}
+    {'VC2525'}
+    {'VC2527'}
+    {'VC2528'}
 
 First 20 GUT essential genes:
-    {'ETEC_0009'}
-    {'ETEC_0025'}
-    {'ETEC_0029'}
-    {'ETEC_0052'}
-    {'ETEC_0070'}
-    {'ETEC_0071'}
-    {'ETEC_0072'}
-    {'ETEC_0073'}
-    {'ETEC_0084'}
-    {'ETEC_0085'}
-    {'ETEC_0088'}
-    {'ETEC_0100'}
-    {'ETEC_0105'}
-    {'ETEC_0127'}
-    {'ETEC_0129'}
-    {'ETEC_0130'}
-    {'ETEC_0138'}
-    {'ETEC_0150'}
-    {'ETEC_0155'}
-    {'ETEC_0168'}
+    {'VC1483'}
+    {'VC2021'}
+    {'VC2019'}
+    {'VC2362'}
+    {'VC2379'}
+    {'VC2523'}
+    {'VC2020'}
+    {'VC0819'}
+    {'VC0295'}
+    {'VC0296'}
+    {'VC1000'}
+    {'VC2244'}
+    {'VC2499'}
+    {'VC2500'}
+    {'VC2525'}
+    {'VC2527'}
+    {'VC2528'}
+    {'VC2618'}
+    {'VC2018'}
+    {'VC1303'}
 
 First 20 CORE essential genes:
-    {'ETEC_0009'}
-    {'ETEC_0025'}
-    {'ETEC_0029'}
-    {'ETEC_0052'}
-    {'ETEC_0070'}
-    {'ETEC_0071'}
-    {'ETEC_0072'}
-    {'ETEC_0073'}
-    {'ETEC_0084'}
-    {'ETEC_0085'}
-    {'ETEC_0088'}
-    {'ETEC_0100'}
-    {'ETEC_0105'}
-    {'ETEC_0127'}
-    {'ETEC_0129'}
-    {'ETEC_0130'}
-    {'ETEC_0138'}
-    {'ETEC_0150'}
-    {'ETEC_0155'}
-    {'ETEC_0168'}
-
+    {'VC0027'}
+    {'VC0028'}
+    {'VC0029'}
+    {'VC0051'}
+    {'VC0052'}
+    {'VC0056'}
+    {'VC0061'}
+    {'VC0062'}
+    {'VC0063'}
+    {'VC0064'}
+    {'VC0065'}
+    {'VC0066'}
+    {'VC0094'}
+    {'VC0095'}
+    {'VC0105'}
+    {'VC0119'}
+    {'VC0120'}
+    {'VC0125'}
+    {'VC0126'}
+    {'VC0158'}
 All results saved.
  
 ================ WATER-ONLY ESSENTIAL GENES ================
-1. ETEC_3682
-2. ETEC_4208
-3. ETEC_4268
-4. VC1611
-5. VC1671
-6. VC2683
+1. VC1169
+2. VC1170
+3. VC1171
+4. VC1172
+5. VC1173
+6. VC1174
+7. VC1611
+8. VC1671
+9. VC2316
+10. VC2389
+11. VC2390
+12. VC2508
+13. VC2643
+14. VC2644
+15. VC2645
+16. VC2683
  
 ================ GUT-ONLY ESSENTIAL GENES =================
-1. ETEC_0180
-2. ETEC_2452
-3. ETEC_3514
-4. ETEC_3515
+1. VC2088
+2. VC2089
+3. VC2090
+4. VC2091
+5. VC2290
+6. VC2291
+7. VC2292
+8. VC2293
+9. VC2294
+10. VC2295
+11. VC2471
  
 ================ WATER-ONLY ESSENTIAL GENES ================
-        Gene                ReactionIDs                             ReactionNames                                                                                       ReactionFormulas                                                                 
-    _____________    _________________________    __________________________________________________    _________________________________________________________________________________________________________________________________________________
+       Gene              ReactionIDs                                                                     ReactionNames                                                                                                                           ReactionFormulas                                                            
+    __________    _________________________    __________________________________________________________________________________________________________________________________    ________________________________________________________________________________________________________________________________________
 
-    {'ETEC_3682'}    {'etec_ASAD'            }    {'Aspartate-semialdehyde dehydrogenase'          }    {'nadp[c_etec] + pi[c_etec] + aspsa[c_etec]  <=> h[c_etec] + nadph[c_etec] + 4pasp[c_etec] '                                                    }
-    {'ETEC_4208'}    {'etec_SHSL1'           }    {'O-succinylhomoserine lyase (L-cysteine)'       }    {'cys-L[c_etec] + suchms[c_etec]  -> h[c_etec] + succ[c_etec] + cyst-L[c_etec] '                                                                }
-    {'ETEC_4268'}    {'etec_HSST'            }    {'Homoserine O-succinyltransferase'              }    {'succoa[c_etec] + hom-L[c_etec]  -> coa[c_etec] + suchms[c_etec] '                                                                             }
-    {'VC1611'   }    {'vch_HSST'             }    {'homoserine O-succinyltransferase'              }    {'hom-L[c_vch] + succoa[c_vch]  -> coa[c_vch] + suchms[c_vch] '                                                                                 }
-    {'VC1671'   }    {'vch_CYSDS ; vch_CYSTL'}    {'Cysteine Desulfhydrase ; cystathionine b-lyase'}    {'cys-L[c_vch] + h2o[c_vch]  -> h2s[c_vch] + nh4[c_vch] + pyr[c_vch]  ; cyst-L[c_vch] + h2o[c_vch]  -> hcys-L[c_vch] + nh4[c_vch] + pyr[c_vch] '}
-    {'VC2683'   }    {'vch_SHSL1'            }    {'O-succinylhomoserine lyase (L-cysteine)'       }    {'cys-L[c_vch] + suchms[c_vch]  -> cyst-L[c_vch] + h[c_vch] + succ[c_vch] '                                                                     }
+    {'VC1169'}    {'TRPS1 ; TRPS2 ; TRPS3'}    {'tryptophan synthase (indoleglycerol phosphate) ; tryptophan synthase (indole) ; tryptophan synthase (indoleglycerol phosphate)'}    {'3ig3p[c] + ser-L[c]  -> g3p[c] + h2o[c] + trp-L[c]  ; indole[c] + ser-L[c]  -> h2o[c] + trp-L[c]  ; 3ig3p[c]  -> g3p[c] + indole[c] '}
+    {'VC1170'}    {'TRPS1 ; TRPS2 ; TRPS3'}    {'tryptophan synthase (indoleglycerol phosphate) ; tryptophan synthase (indole) ; tryptophan synthase (indoleglycerol phosphate)'}    {'3ig3p[c] + ser-L[c]  -> g3p[c] + h2o[c] + trp-L[c]  ; indole[c] + ser-L[c]  -> h2o[c] + trp-L[c]  ; 3ig3p[c]  -> g3p[c] + indole[c] '}
+    {'VC1171'}    {'IGPS ; PRAIi'         }    {'indole-3-glycerol-phosphate synthase ; phosphoribosylanthranilate isomerase (irreversible)'                                    }    {'2cpr5p[c] + h[c]  -> 3ig3p[c] + co2[c] + h2o[c]  ; pran[c]  -> 2cpr5p[c] '                                                           }
+    {'VC1172'}    {'ANPRT'                }    {'anthranilate phosphoribosyltransferase'                                                                                        }    {'anth[c] + prpp[c]  -> ppi[c] + pran[c] '                                                                                             }
+    {'VC1173'}    {'ANS'                  }    {'anthranilate synthase'                                                                                                         }    {'chor[c] + gln-L[c]  -> anth[c] + glu-L[c] + h[c] + pyr[c] '                                                                          }
+    {'VC1174'}    {'ANS'                  }    {'anthranilate synthase'                                                                                                         }    {'chor[c] + gln-L[c]  -> anth[c] + glu-L[c] + h[c] + pyr[c] '                                                                          }
+    {'VC1611'}    {'HSST'                 }    {'homoserine O-succinyltransferase'                                                                                              }    {'hom-L[c] + succoa[c]  -> coa[c] + suchms[c] '                                                                                        }
+    {'VC1671'}    {'CYSDS ; CYSTL'        }    {'Cysteine Desulfhydrase ; cystathionine b-lyase'                                                                                }    {'cys-L[c] + h2o[c]  -> h2s[c] + nh4[c] + pyr[c]  ; cyst-L[c] + h2o[c]  -> hcys-L[c] + nh4[c] + pyr[c] '                               }
+    {'VC2316'}    {'ACGS ; LPLIPAL2ATE181'}    {'N-acetylglutamate synthase ; Lysophospholipase L2 (acyltransferase, 2-acyl-glycerophosphoethanolamine, n-C18:1)'               }    {'accoa[c] + glu-L[c]  -> acglu[c] + coa[c] + h[c]  ; 2agpe181[c] + pg181[c]  -> apg181[c] + g3pe[c] '                                 }
+    {'VC2389'}    {'CBPS'                 }    {'carbamoyl-phosphate synthase (glutamine-hydrolysing)'                                                                          }    {'2 atp[c] + gln-L[c] + h2o[c] + hco3[c]  -> 2 adp[c] + cbp[c] + glu-L[c] + 2 h[c] + pi[c] '                                           }
+    {'VC2390'}    {'CBPS'                 }    {'carbamoyl-phosphate synthase (glutamine-hydrolysing)'                                                                          }    {'2 atp[c] + gln-L[c] + h2o[c] + hco3[c]  -> 2 adp[c] + cbp[c] + glu-L[c] + 2 h[c] + pi[c] '                                           }
+    {'VC2508'}    {'OCBT'                 }    {'ornithine carbamoyltransferase'                                                                                                }    {'cbp[c] + orn[c]  <=> citr-L[c] + h[c] + pi[c] '                                                                                      }
+    {'VC2643'}    {'ACGK'                 }    {'acetylglutamate kinase'                                                                                                        }    {'acglu[c] + atp[c]  -> acg5p[c] + adp[c] '                                                                                            }
+    {'VC2644'}    {'AGPR'                 }    {'N-acetyl-g-glutamyl-phosphate reductase'                                                                                       }    {'acg5sa[c] + nadp[c] + pi[c]  <=> acg5p[c] + h[c] + nadph[c] '                                                                        }
+    {'VC2645'}    {'ACODA ; NACODA'       }    {'acetylornithine deacetylase ; N-acetylornithine deacetylase'                                                                   }    {'acorn[c] + h2o[c]  -> ac[c] + orn[c]  ; acg5sa[c] + h2o[c]  -> ac[c] + glu5sa[c] '                                                   }
+    {'VC2683'}    {'SHSL1'                }    {'O-succinylhomoserine lyase (L-cysteine)'                                                                                       }    {'cys-L[c] + suchms[c]  -> cyst-L[c] + h[c] + succ[c] '                                                                                }
 
  
 ================ GUT-ONLY ESSENTIAL GENES =================
-        Gene           ReactionIDs            ReactionNames                                                       ReactionFormulas                                             
-    _____________    _______________    __________________________    _________________________________________________________________________________________________________
+       Gene       ReactionIDs                                               ReactionNames                                                                              ReactionFormulas                               
+    __________    ___________    ___________________________________________________________________________________________________    ______________________________________________________________________________
 
-    {'ETEC_0180'}    {'etec_ACCOAC'}    {'Acetyl-CoA carboxylase'}    {'atp[c_etec] + accoa[c_etec] + hco3[c_etec]  -> h[c_etec] + malcoa[c_etec] + pi[c_etec] + adp[c_etec] '}
-    {'ETEC_2452'}    {'etec_ACCOAC'}    {'Acetyl-CoA carboxylase'}    {'atp[c_etec] + accoa[c_etec] + hco3[c_etec]  -> h[c_etec] + malcoa[c_etec] + pi[c_etec] + adp[c_etec] '}
-    {'ETEC_3514'}    {'etec_ACCOAC'}    {'Acetyl-CoA carboxylase'}    {'atp[c_etec] + accoa[c_etec] + hco3[c_etec]  -> h[c_etec] + malcoa[c_etec] + pi[c_etec] + adp[c_etec] '}
-    {'ETEC_3515'}    {'etec_ACCOAC'}    {'Acetyl-CoA carboxylase'}    {'atp[c_etec] + accoa[c_etec] + hco3[c_etec]  -> h[c_etec] + malcoa[c_etec] + pi[c_etec] + adp[c_etec] '}
+    {'VC2088'}    {'SUCDi'  }    {'succinate dehydrogenase (irreversible)'                                                         }    {'q8[c] + succ[c]  -> fum[c] + q8h2[c] '                                     }
+    {'VC2089'}    {'SUCDi'  }    {'succinate dehydrogenase (irreversible)'                                                         }    {'q8[c] + succ[c]  -> fum[c] + q8h2[c] '                                     }
+    {'VC2090'}    {'SUCDi'  }    {'succinate dehydrogenase (irreversible)'                                                         }    {'q8[c] + succ[c]  -> fum[c] + q8h2[c] '                                     }
+    {'VC2091'}    {'SUCDi'  }    {'succinate dehydrogenase (irreversible)'                                                         }    {'q8[c] + succ[c]  -> fum[c] + q8h2[c] '                                     }
+    {'VC2290'}    {'NADHNQR'}    {'NADH: quinone oxidoreductas, NQR-type / Na(+)-translocating NADH-quinone reductase (EC 1.6.5.-)'}    {'4 h[c] + na1[c] + nadh[c] + q8[c]  <=> nad[c] + q8h2[c] + 3 h[p] + na1[p] '}
+    {'VC2291'}    {'NADHNQR'}    {'NADH: quinone oxidoreductas, NQR-type / Na(+)-translocating NADH-quinone reductase (EC 1.6.5.-)'}    {'4 h[c] + na1[c] + nadh[c] + q8[c]  <=> nad[c] + q8h2[c] + 3 h[p] + na1[p] '}
+    {'VC2292'}    {'NADHNQR'}    {'NADH: quinone oxidoreductas, NQR-type / Na(+)-translocating NADH-quinone reductase (EC 1.6.5.-)'}    {'4 h[c] + na1[c] + nadh[c] + q8[c]  <=> nad[c] + q8h2[c] + 3 h[p] + na1[p] '}
+    {'VC2293'}    {'NADHNQR'}    {'NADH: quinone oxidoreductas, NQR-type / Na(+)-translocating NADH-quinone reductase (EC 1.6.5.-)'}    {'4 h[c] + na1[c] + nadh[c] + q8[c]  <=> nad[c] + q8h2[c] + 3 h[p] + na1[p] '}
+    {'VC2294'}    {'NADHNQR'}    {'NADH: quinone oxidoreductas, NQR-type / Na(+)-translocating NADH-quinone reductase (EC 1.6.5.-)'}    {'4 h[c] + na1[c] + nadh[c] + q8[c]  <=> nad[c] + q8h2[c] + 3 h[p] + na1[p] '}
+    {'VC2295'}    {'NADHNQR'}    {'NADH: quinone oxidoreductas, NQR-type / Na(+)-translocating NADH-quinone reductase (EC 1.6.5.-)'}    {'4 h[c] + na1[c] + nadh[c] + q8[c]  <=> nad[c] + q8h2[c] + 3 h[p] + na1[p] '}
+    {'VC2471'}    {'SUCDi'  }    {'succinate dehydrogenase (irreversible)'                                                         }    {'q8[c] + succ[c]  -> fum[c] + q8h2[c] '                                     }
 
 
 Saved:
@@ -552,25 +587,43 @@ Saved:
  - gut_unique_essential_genes_full.csv
  
 TABLE: WATER-ONLY ESSENTIAL GENES
-        Gene                ReactionIDs                             ReactionNames                                                                                       ReactionFormulas                                                                 
-    _____________    _________________________    __________________________________________________    _________________________________________________________________________________________________________________________________________________
+       Gene              ReactionIDs                                                                     ReactionNames                                                                                                                           ReactionFormulas                                                            
+    __________    _________________________    __________________________________________________________________________________________________________________________________    ________________________________________________________________________________________________________________________________________
 
-    {'ETEC_3682'}    {'etec_ASAD'            }    {'Aspartate-semialdehyde dehydrogenase'          }    {'nadp[c_etec] + pi[c_etec] + aspsa[c_etec]  <=> h[c_etec] + nadph[c_etec] + 4pasp[c_etec] '                                                    }
-    {'ETEC_4208'}    {'etec_SHSL1'           }    {'O-succinylhomoserine lyase (L-cysteine)'       }    {'cys-L[c_etec] + suchms[c_etec]  -> h[c_etec] + succ[c_etec] + cyst-L[c_etec] '                                                                }
-    {'ETEC_4268'}    {'etec_HSST'            }    {'Homoserine O-succinyltransferase'              }    {'succoa[c_etec] + hom-L[c_etec]  -> coa[c_etec] + suchms[c_etec] '                                                                             }
-    {'VC1611'   }    {'vch_HSST'             }    {'homoserine O-succinyltransferase'              }    {'hom-L[c_vch] + succoa[c_vch]  -> coa[c_vch] + suchms[c_vch] '                                                                                 }
-    {'VC1671'   }    {'vch_CYSDS ; vch_CYSTL'}    {'Cysteine Desulfhydrase ; cystathionine b-lyase'}    {'cys-L[c_vch] + h2o[c_vch]  -> h2s[c_vch] + nh4[c_vch] + pyr[c_vch]  ; cyst-L[c_vch] + h2o[c_vch]  -> hcys-L[c_vch] + nh4[c_vch] + pyr[c_vch] '}
-    {'VC2683'   }    {'vch_SHSL1'            }    {'O-succinylhomoserine lyase (L-cysteine)'       }    {'cys-L[c_vch] + suchms[c_vch]  -> cyst-L[c_vch] + h[c_vch] + succ[c_vch] '                                                                     }
+    {'VC1169'}    {'TRPS1 ; TRPS2 ; TRPS3'}    {'tryptophan synthase (indoleglycerol phosphate) ; tryptophan synthase (indole) ; tryptophan synthase (indoleglycerol phosphate)'}    {'3ig3p[c] + ser-L[c]  -> g3p[c] + h2o[c] + trp-L[c]  ; indole[c] + ser-L[c]  -> h2o[c] + trp-L[c]  ; 3ig3p[c]  -> g3p[c] + indole[c] '}
+    {'VC1170'}    {'TRPS1 ; TRPS2 ; TRPS3'}    {'tryptophan synthase (indoleglycerol phosphate) ; tryptophan synthase (indole) ; tryptophan synthase (indoleglycerol phosphate)'}    {'3ig3p[c] + ser-L[c]  -> g3p[c] + h2o[c] + trp-L[c]  ; indole[c] + ser-L[c]  -> h2o[c] + trp-L[c]  ; 3ig3p[c]  -> g3p[c] + indole[c] '}
+    {'VC1171'}    {'IGPS ; PRAIi'         }    {'indole-3-glycerol-phosphate synthase ; phosphoribosylanthranilate isomerase (irreversible)'                                    }    {'2cpr5p[c] + h[c]  -> 3ig3p[c] + co2[c] + h2o[c]  ; pran[c]  -> 2cpr5p[c] '                                                           }
+    {'VC1172'}    {'ANPRT'                }    {'anthranilate phosphoribosyltransferase'                                                                                        }    {'anth[c] + prpp[c]  -> ppi[c] + pran[c] '                                                                                             }
+    {'VC1173'}    {'ANS'                  }    {'anthranilate synthase'                                                                                                         }    {'chor[c] + gln-L[c]  -> anth[c] + glu-L[c] + h[c] + pyr[c] '                                                                          }
+    {'VC1174'}    {'ANS'                  }    {'anthranilate synthase'                                                                                                         }    {'chor[c] + gln-L[c]  -> anth[c] + glu-L[c] + h[c] + pyr[c] '                                                                          }
+    {'VC1611'}    {'HSST'                 }    {'homoserine O-succinyltransferase'                                                                                              }    {'hom-L[c] + succoa[c]  -> coa[c] + suchms[c] '                                                                                        }
+    {'VC1671'}    {'CYSDS ; CYSTL'        }    {'Cysteine Desulfhydrase ; cystathionine b-lyase'                                                                                }    {'cys-L[c] + h2o[c]  -> h2s[c] + nh4[c] + pyr[c]  ; cyst-L[c] + h2o[c]  -> hcys-L[c] + nh4[c] + pyr[c] '                               }
+    {'VC2316'}    {'ACGS ; LPLIPAL2ATE181'}    {'N-acetylglutamate synthase ; Lysophospholipase L2 (acyltransferase, 2-acyl-glycerophosphoethanolamine, n-C18:1)'               }    {'accoa[c] + glu-L[c]  -> acglu[c] + coa[c] + h[c]  ; 2agpe181[c] + pg181[c]  -> apg181[c] + g3pe[c] '                                 }
+    {'VC2389'}    {'CBPS'                 }    {'carbamoyl-phosphate synthase (glutamine-hydrolysing)'                                                                          }    {'2 atp[c] + gln-L[c] + h2o[c] + hco3[c]  -> 2 adp[c] + cbp[c] + glu-L[c] + 2 h[c] + pi[c] '                                           }
+    {'VC2390'}    {'CBPS'                 }    {'carbamoyl-phosphate synthase (glutamine-hydrolysing)'                                                                          }    {'2 atp[c] + gln-L[c] + h2o[c] + hco3[c]  -> 2 adp[c] + cbp[c] + glu-L[c] + 2 h[c] + pi[c] '                                           }
+    {'VC2508'}    {'OCBT'                 }    {'ornithine carbamoyltransferase'                                                                                                }    {'cbp[c] + orn[c]  <=> citr-L[c] + h[c] + pi[c] '                                                                                      }
+    {'VC2643'}    {'ACGK'                 }    {'acetylglutamate kinase'                                                                                                        }    {'acglu[c] + atp[c]  -> acg5p[c] + adp[c] '                                                                                            }
+    {'VC2644'}    {'AGPR'                 }    {'N-acetyl-g-glutamyl-phosphate reductase'                                                                                       }    {'acg5sa[c] + nadp[c] + pi[c]  <=> acg5p[c] + h[c] + nadph[c] '                                                                        }
+    {'VC2645'}    {'ACODA ; NACODA'       }    {'acetylornithine deacetylase ; N-acetylornithine deacetylase'                                                                   }    {'acorn[c] + h2o[c]  -> ac[c] + orn[c]  ; acg5sa[c] + h2o[c]  -> ac[c] + glu5sa[c] '                                                   }
+    {'VC2683'}    {'SHSL1'                }    {'O-succinylhomoserine lyase (L-cysteine)'                                                                                       }    {'cys-L[c] + suchms[c]  -> cyst-L[c] + h[c] + succ[c] '                                                                                }
 
  
 TABLE: GUT-ONLY ESSENTIAL GENES
-        Gene           ReactionIDs            ReactionNames                                                       ReactionFormulas                                             
-    _____________    _______________    __________________________    _________________________________________________________________________________________________________
+       Gene       ReactionIDs                                               ReactionNames                                                                              ReactionFormulas                               
+    __________    ___________    ___________________________________________________________________________________________________    ______________________________________________________________________________
 
-    {'ETEC_0180'}    {'etec_ACCOAC'}    {'Acetyl-CoA carboxylase'}    {'atp[c_etec] + accoa[c_etec] + hco3[c_etec]  -> h[c_etec] + malcoa[c_etec] + pi[c_etec] + adp[c_etec] '}
-    {'ETEC_2452'}    {'etec_ACCOAC'}    {'Acetyl-CoA carboxylase'}    {'atp[c_etec] + accoa[c_etec] + hco3[c_etec]  -> h[c_etec] + malcoa[c_etec] + pi[c_etec] + adp[c_etec] '}
-    {'ETEC_3514'}    {'etec_ACCOAC'}    {'Acetyl-CoA carboxylase'}    {'atp[c_etec] + accoa[c_etec] + hco3[c_etec]  -> h[c_etec] + malcoa[c_etec] + pi[c_etec] + adp[c_etec] '}
-    {'ETEC_3515'}    {'etec_ACCOAC'}    {'Acetyl-CoA carboxylase'}    {'atp[c_etec] + accoa[c_etec] + hco3[c_etec]  -> h[c_etec] + malcoa[c_etec] + pi[c_etec] + adp[c_etec] '}
+    {'VC2088'}    {'SUCDi'  }    {'succinate dehydrogenase (irreversible)'                                                         }    {'q8[c] + succ[c]  -> fum[c] + q8h2[c] '                                     }
+    {'VC2089'}    {'SUCDi'  }    {'succinate dehydrogenase (irreversible)'                                                         }    {'q8[c] + succ[c]  -> fum[c] + q8h2[c] '                                     }
+    {'VC2090'}    {'SUCDi'  }    {'succinate dehydrogenase (irreversible)'                                                         }    {'q8[c] + succ[c]  -> fum[c] + q8h2[c] '                                     }
+    {'VC2091'}    {'SUCDi'  }    {'succinate dehydrogenase (irreversible)'                                                         }    {'q8[c] + succ[c]  -> fum[c] + q8h2[c] '                                     }
+    {'VC2290'}    {'NADHNQR'}    {'NADH: quinone oxidoreductas, NQR-type / Na(+)-translocating NADH-quinone reductase (EC 1.6.5.-)'}    {'4 h[c] + na1[c] + nadh[c] + q8[c]  <=> nad[c] + q8h2[c] + 3 h[p] + na1[p] '}
+    {'VC2291'}    {'NADHNQR'}    {'NADH: quinone oxidoreductas, NQR-type / Na(+)-translocating NADH-quinone reductase (EC 1.6.5.-)'}    {'4 h[c] + na1[c] + nadh[c] + q8[c]  <=> nad[c] + q8h2[c] + 3 h[p] + na1[p] '}
+    {'VC2292'}    {'NADHNQR'}    {'NADH: quinone oxidoreductas, NQR-type / Na(+)-translocating NADH-quinone reductase (EC 1.6.5.-)'}    {'4 h[c] + na1[c] + nadh[c] + q8[c]  <=> nad[c] + q8h2[c] + 3 h[p] + na1[p] '}
+    {'VC2293'}    {'NADHNQR'}    {'NADH: quinone oxidoreductas, NQR-type / Na(+)-translocating NADH-quinone reductase (EC 1.6.5.-)'}    {'4 h[c] + na1[c] + nadh[c] + q8[c]  <=> nad[c] + q8h2[c] + 3 h[p] + na1[p] '}
+    {'VC2294'}    {'NADHNQR'}    {'NADH: quinone oxidoreductas, NQR-type / Na(+)-translocating NADH-quinone reductase (EC 1.6.5.-)'}    {'4 h[c] + na1[c] + nadh[c] + q8[c]  <=> nad[c] + q8h2[c] + 3 h[p] + na1[p] '}
+    {'VC2295'}    {'NADHNQR'}    {'NADH: quinone oxidoreductas, NQR-type / Na(+)-translocating NADH-quinone reductase (EC 1.6.5.-)'}    {'4 h[c] + na1[c] + nadh[c] + q8[c]  <=> nad[c] + q8h2[c] + 3 h[p] + na1[p] '}
+    {'VC2471'}    {'SUCDi'  }    {'succinate dehydrogenase (irreversible)'                                                         }    {'q8[c] + succ[c]  -> fum[c] + q8h2[c] '                                     }
+
 
 Saved:
  - water_unique_essential_genes_with_reactions.csv
